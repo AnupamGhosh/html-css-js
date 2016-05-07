@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial;
+    color: #444444; 
+}
+
+section {
+    background-color: #FAFAFA;;
+    margin: 20px;
+    border: 1px solid plum;
+    border-radius: 5px;
+}
+
+section > div:first-child {
+    background-color: gainsboro;
+    float: right;
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+section > div:nth-child(2) {
+    clear: right;
+    padding: 0 10px 10px 10px;
+}
+
+@media (min-width: 992px) {
+    .lg {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .md {
+        float: left;
+        width: 50%;
+    }
+    
+    #last-sec {
+        clear: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .sm {
+        float: left;
+        width: 100%;
+    }
+}
