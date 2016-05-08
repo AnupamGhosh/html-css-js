@@ -9,6 +9,10 @@ body {
     color: #444444; 
 }
 
+h1 {
+    text-align: center;
+}
+
 section {
     background-color: #FAFAFA;;
     margin: 20px;
