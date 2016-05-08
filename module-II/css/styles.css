@@ -14,14 +14,25 @@ h1 {
 }
 
 section {
-    background-color: #FAFAFA;;
+    background-color: lightyellow;
     margin: 20px;
     border: 1px solid plum;
     border-radius: 5px;
 }
 
+.shukto {
+    background-color: #ccff66;
+}
+
+.ilish {
+    background-color: #ffcc66;
+}
+
+.roshogolla {
+    background-color: #e6e6e6;
+}
+
 section > div:first-child {
-    background-color: gainsboro;
     float: right;
     position: relative;
     padding: 5px 10px;
