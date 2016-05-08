@@ -57,7 +57,7 @@ section > div:nth-child(2) {
         width: 50%;
     }
     
-    #last-sec {
+    .md-full {
         clear: left;
         width: 100%;
     }
