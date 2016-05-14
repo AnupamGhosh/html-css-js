@@ -1,0 +1,45 @@
+div.navbar-brand > h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    color: #f6b397;
+}
+.navbar-header > button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.navbar-header > button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #f6b397;
+}
+#nav-list a {
+    color: #f6b319
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #951C49;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+div.row > div > div {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 2px; 
+}
+
+#shukto {
+    background-color: #ccdd66;
+}
+
+#ilish {
+    background-color: #ffcc66;
+}
+
+#roshogolla {
+    background-color: #e6e6e6;
+}
